@@ -35,6 +35,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: NextJS Cache
+        uses: jongwooo/next-cache@v1.0.0
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
